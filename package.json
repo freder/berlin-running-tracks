@@ -1,0 +1,12 @@
+{
+  "name": "berlin-running-tracks",
+  "version": "0.0.0",
+  "main": "dist/berlin-running-tracks.json",
+  "scripts": {
+  	"build": "./make.sh"
+  },
+  "dependencies": {
+    "csvtojson": "^2.0.4",
+    "ramda": "^0.25.0"
+  }
+}
