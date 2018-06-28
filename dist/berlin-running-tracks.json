@@ -2,23 +2,46 @@
 	{
 		"name": "Friedrich-Ludwig-Jahn-Sportpark",
 		"public": true,
-		"notes": "",
 		"latLng": [
 			"52.5453689",
 			"13.408729"
 		],
 		"googleMaps": "https://www.google.de/maps/place/Friedrich-Ludwig-Jahn-Sportpark/@52.5453689,13.408729,347m/data=!3m1!1e3!4m5!3m4!1s0x47a85202654af34d:0x8f03b5d9a604729c!8m2!3d52.5435209!4d13.4095397",
-		"lapDistance": 400
+		"lapDistance": 400,
+		"runByFreder": true
 	},
 	{
 		"name": "Sportanlage In den Ministergärten 2",
-		"public": false,
-		"notes": "",
 		"latLng": [
 			"52.5128808",
 			"13.379394"
 		],
 		"googleMaps": "https://www.google.de/maps/place/Sportanlage+In+den+Ministerg%C3%A4rten+2/@52.5128808,13.379394,173m/data=!3m1!1e3!4m5!3m4!1s0x47a851cf53b8281b:0x25d588d9c727fad6!8m2!3d52.5128808!4d13.3799415",
-		"lapDistance": 200
+		"lapDistance": 200,
+		"runByFreder": true,
+		"public": false
+	},
+	{
+		"notes": "high fence",
+		"name": "Günter-König-Sportplatz",
+		"latLng": [
+			"52.49277",
+			"13.4017284"
+		],
+		"googleMaps": "https://www.google.de/maps/place/G%C3%BCnter-K%C3%B6nig-Sportplatz/@52.49277,13.4017284,693m/data=!3m2!1e3!4b1!4m5!3m4!1s0x47a84fd04588defb:0x3f7c0d8d42aa60f7!8m2!3d52.49277!4d13.4039171",
+		"lapDistance": 400,
+		"runByFreder": false,
+		"public": false
+	},
+	{
+		"name": "BFC Südring",
+		"public": true,
+		"latLng": [
+			"52.5021326",
+			"13.4019524"
+		],
+		"googleMaps": "https://www.google.de/maps/place/BFC+S%C3%BCdring/@52.5021326,13.4019524,690m/data=!3m1!1e3!4m5!3m4!1s0x47a84fcd582b99f7:0xe82f2fbf38e2572!8m2!3d52.5021325!4d13.4041411",
+		"lapDistance": 400,
+		"runByFreder": true
 	}
 ]
