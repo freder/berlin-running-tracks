@@ -52,6 +52,7 @@ const prepare = R.pipe(
 			R.assoc('latLng', item['lat / lng']),
 			R.assoc('googleMaps', item['google maps']),
 			R.assoc('lapDistance', item['lap distance (m)']),
+			R.assoc('runByFreder', item['run by freder'] || false),
 			R.assoc('public', item['public'] || false),
 		)(item);
 	},
@@ -59,5 +60,6 @@ const prepare = R.pipe(
 		'lat / lng',
 		'google maps',
 		'lap distance (m)',
+		'run by freder',
 	]),
 );
