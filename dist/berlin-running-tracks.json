@@ -1,0 +1,24 @@
+[
+	{
+		"name": "Friedrich-Ludwig-Jahn-Sportpark",
+		"public": true,
+		"notes": "",
+		"latLng": [
+			"52.5453689",
+			"13.408729"
+		],
+		"googleMaps": "https://www.google.de/maps/place/Friedrich-Ludwig-Jahn-Sportpark/@52.5453689,13.408729,347m/data=!3m1!1e3!4m5!3m4!1s0x47a85202654af34d:0x8f03b5d9a604729c!8m2!3d52.5435209!4d13.4095397",
+		"lapDistance": 400
+	},
+	{
+		"name": "Sportanlage In den Ministergärten 2",
+		"public": false,
+		"notes": "",
+		"latLng": [
+			"52.5128808",
+			"13.379394"
+		],
+		"googleMaps": "https://www.google.de/maps/place/Sportanlage+In+den+Ministerg%C3%A4rten+2/@52.5128808,13.379394,173m/data=!3m1!1e3!4m5!3m4!1s0x47a851cf53b8281b:0x25d588d9c727fad6!8m2!3d52.5128808!4d13.3799415",
+		"lapDistance": 200
+	}
+]
