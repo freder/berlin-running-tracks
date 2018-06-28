@@ -3,3 +3,8 @@ a growing list of [running tracks](https://www.google.de/maps/place/Friedrich-Lu
 gets data from [https://airtable.com/shrdPzCGzDqBQ5MPZ](https://airtable.com/shrdPzCGzDqBQ5MPZ) and converts it to → [berlin-running-tracks.json](dist/berlin-running-tracks.json)
 
 🏃‍♀️ PRs welcome 🏃‍♂️
+
+---
+
+helpful resources:
+- [berlin.terrapattern.com](http://berlin.terrapattern.com/?_ga=2.262404876.1219883466.1530112202-1988403377.1530112202&lat=52.545722&lng=13.408941000000027)
