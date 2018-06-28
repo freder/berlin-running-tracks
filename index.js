@@ -36,30 +36,42 @@ base('data')
 	);
 
 
+const renameKeys = (oldNewKeys, obj) => {
+	return R.pipe(
+		R.reduce(
+			(acc, [oldKey, newKey]) => R.assoc(newKey, acc[oldKey], acc),
+			R.__,
+			oldNewKeys
+		),
+		R.omit(
+			oldNewKeys.map(R.head)
+		),
+	)(obj);
+};
+
+
 const prepare = R.pipe(
+	// rename fields
+	(item) => renameKeys(
+		[
+			['lat / lng', 'latLng'],
+			['google maps', 'googleMaps'],
+			['lap distance (m)', 'lapDistance'],
+			['run by freder', 'runByFreder'],
+		],
+		item
+	),
+	
 	// prepare data
+	(item) => R.pipe(
+		R.assoc('runByFreder', item.runByFreder || false),
+		R.assoc('public', item.public || false),
+	)(item),
 	R.evolve({
-		'lap distance (m)': (d) => parseInt(d, 10),
-		'lat / lng': R.pipe(
+		lapDistance: (d) => parseInt(d, 10),
+		latLng: R.pipe(
 			R.split(','), 
 			R.map(R.trim)
 		),
 	}),
-
-	// rename fields
-	(item) => {
-		return R.pipe(
-			R.assoc('latLng', item['lat / lng']),
-			R.assoc('googleMaps', item['google maps']),
-			R.assoc('lapDistance', item['lap distance (m)']),
-			R.assoc('runByFreder', item['run by freder'] || false),
-			R.assoc('public', item['public'] || false),
-		)(item);
-	},
-	R.omit([
-		'lat / lng',
-		'google maps',
-		'lap distance (m)',
-		'run by freder',
-	]),
 );
