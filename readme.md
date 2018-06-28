@@ -9,3 +9,4 @@ gets data from [https://airtable.com/shrdPzCGzDqBQ5MPZ](https://airtable.com/shr
 helpful resources:
 - [berlin.terrapattern.com](http://berlin.terrapattern.com/?_ga=2.262404876.1219883466.1530112202-1988403377.1530112202&lat=52.545722&lng=13.408941000000027)
 - [wiki.openstreetmap.org/wiki/Tag:leisure%3Dtrack](https://wiki.openstreetmap.org/wiki/Tag:leisure%3Dtrack)
+    - [tools.wmflabs.org/query2map/queryinmap.php?BBOX=13.231265,52.452243,13.519656,52.551932&name=*&key=leisure&value=track&types=points-lines-areas-infos](https://tools.wmflabs.org/query2map/queryinmap.php?BBOX=13.231265,52.452243,13.519656,52.551932&name=*&key=leisure&value=track&types=points-lines-areas-infos)
