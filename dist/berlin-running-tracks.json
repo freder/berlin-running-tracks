@@ -43,5 +43,16 @@
 		"googleMaps": "https://www.google.de/maps/place/BFC+S%C3%BCdring/@52.5021326,13.4019524,690m/data=!3m1!1e3!4m5!3m4!1s0x47a84fcd582b99f7:0xe82f2fbf38e2572!8m2!3d52.5021325!4d13.4041411",
 		"lapDistance": 400,
 		"runByFreder": true
+	},
+	{
+		"public": true,
+		"name": "Touch Rugby Berlin",
+		"latLng": [
+			"52.4832503",
+			"13.4083321"
+		],
+		"googleMaps": "https://www.google.de/maps/place/Touch+Rugby+Berlin/@52.4832503,13.4083321,343m/data=!3m1!1e3!4m5!3m4!1s0x0:0x35a578bc1ad76098!8m2!3d52.4833101!4d13.408336",
+		"lapDistance": 400,
+		"runByFreder": true
 	}
 ]
