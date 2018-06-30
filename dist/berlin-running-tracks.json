@@ -45,8 +45,8 @@
 		"runByFreder": true
 	},
 	{
-		"public": true,
 		"name": "Touch Rugby Berlin",
+		"public": true,
 		"latLng": [
 			"52.4832503",
 			"13.4083321"
@@ -54,5 +54,16 @@
 		"googleMaps": "https://www.google.de/maps/place/Touch+Rugby+Berlin/@52.4832503,13.4083321,343m/data=!3m1!1e3!4m5!3m4!1s0x0:0x35a578bc1ad76098!8m2!3d52.4833101!4d13.408336",
 		"lapDistance": 400,
 		"runByFreder": true
+	},
+	{
+		"name": "Willy-Kressmann-Stadion",
+		"latLng": [
+			"52.4860435",
+			"13.3756541"
+		],
+		"googleMaps": "https://www.google.de/maps/place/Willy-Kressmann-Stadion/@52.4860435,13.3756541,17z/data=!3m1!4b1!4m5!3m4!1s0x47a850237f2ad0cf:0x236a18f931bc5aed!8m2!3d52.4860435!4d13.3778428",
+		"lapDistance": 400,
+		"runByFreder": false,
+		"public": false
 	}
 ]
