@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "main": "dist/berlin-running-tracks.json",
   "scripts": {
-    "build": "./make.sh"
+    "build": "./make.sh && node append-data-table.js"
   },
   "dependencies": {
     "airtable": "^0.5.6",
