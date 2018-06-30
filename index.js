@@ -14,15 +14,15 @@ base('data')
 		(records, fetchNextPage) => {
 			allRecords = [...allRecords, ...records];
 			fetchNextPage();
-		}, 
+		},
 
 		// done
 		(err) => {
-			if (err) { 
-				console.error(err); 
-				return; 
+			if (err) {
+				console.error(err);
+				return;
 			}
-			
+
 			const data = R.map(
 				R.pipe(
 					R.prop('fields'),
@@ -61,7 +61,7 @@ const prepare = R.pipe(
 		],
 		item
 	),
-	
+
 	// prepare data
 	(item) => R.pipe(
 		R.assoc('runByFreder', item.runByFreder || false),
