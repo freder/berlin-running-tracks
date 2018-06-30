@@ -70,8 +70,9 @@ const prepare = R.pipe(
 	R.evolve({
 		lapDistance: (d) => parseInt(d, 10),
 		latLng: R.pipe(
-			R.split(','), 
-			R.map(R.trim)
+			R.split(','),
+			R.map(R.trim),
+			R.map((l) => parseFloat(l, 10)),
 		),
 	}),
 );
