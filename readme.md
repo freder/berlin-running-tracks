@@ -21,3 +21,4 @@ helpful resources:
 | BFC Südring | [52.5021326, 13.4019524](https://www.google.de/maps/place/BFC+S%C3%BCdring/@52.5021326,13.4019524,690m/data=!3m1!1e3!4m5!3m4!1s0x47a84fcd582b99f7:0xe82f2fbf38e2572!8m2!3d52.5021325!4d13.4041411) | 400m | ✔ | ✔ |
 | Touch Rugby Berlin | [52.4832503, 13.4083321](https://www.google.de/maps/place/Touch+Rugby+Berlin/@52.4832503,13.4083321,343m/data=!3m1!1e3!4m5!3m4!1s0x0:0x35a578bc1ad76098!8m2!3d52.4833101!4d13.408336) | 400m | ✔ | ✔ |
 | Willy-Kressmann-Stadion | [52.4860435, 13.3756541](https://www.google.de/maps/place/Willy-Kressmann-Stadion/@52.4860435,13.3756541,17z/data=!3m1!4b1!4m5!3m4!1s0x47a850237f2ad0cf:0x236a18f931bc5aed!8m2!3d52.4860435!4d13.3778428) | 400m |  |  |
+| Sportanlage Maybachufer | [52.48952, 13.4361307](https://www.google.de/maps/place/Sportanlage+Maybachufer,+12045+Berlin/@52.48952,13.4361307,344m/data=!3m1!1e3!4m5!3m4!1s0x47a84fb1e3f4fb73:0x9d4a2915a15d0453!8m2!3d52.4894497!4d13.4371729) | 400m |  | ✔ |

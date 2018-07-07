@@ -65,5 +65,16 @@
 		"lapDistance": 400,
 		"runByFreder": false,
 		"public": false
+	},
+	{
+		"name": "Sportanlage Maybachufer",
+		"latLng": [
+			52.48952,
+			13.4361307
+		],
+		"googleMaps": "https://www.google.de/maps/place/Sportanlage+Maybachufer,+12045+Berlin/@52.48952,13.4361307,344m/data=!3m1!1e3!4m5!3m4!1s0x47a84fb1e3f4fb73:0x9d4a2915a15d0453!8m2!3d52.4894497!4d13.4371729",
+		"lapDistance": 400,
+		"runByFreder": true,
+		"public": false
 	}
 ]
