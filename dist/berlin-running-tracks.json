@@ -76,5 +76,16 @@
 		"lapDistance": 400,
 		"runByFreder": true,
 		"public": false
+	},
+	{
+		"name": "GutsMuths Sportzentrum",
+		"latLng": [
+			52.517989,
+			13.3311411
+		],
+		"googleMaps": "https://www.google.de/maps/place/GutsMuths+Sportzentrum/@52.517989,13.3311411,344m/data=!3m1!1e3!4m13!1m7!3m6!1s0x47a851058226b873:0x5e57d58a0507d8e6!2sWullenweberstra%C3%9Fe,+10555+Berlin!3b1!8m2!3d52.518459!4d13.3323521!3m4!1s0x47a8510583000bc5:0xcdfcb52b253c65a4!8m2!3d52.5189201!4d13.3302797",
+		"lapDistance": 400,
+		"runByFreder": true,
+		"public": false
 	}
 ]
